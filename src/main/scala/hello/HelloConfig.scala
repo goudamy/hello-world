@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @EnableAutoConfiguration
 @ComponentScan
-@RequestMapping(value= Array("/scala"))
+@RequestMapping(value= Array("/"))
 class HelloConfig {
    @RequestMapping(method=Array(RequestMethod.GET))
         @ResponseBody
